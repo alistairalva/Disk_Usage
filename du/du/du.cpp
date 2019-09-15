@@ -30,7 +30,7 @@ bool bySize(Fileusage const& lhs, Fileusage const& rhs) {
 	return lhs.filespace < rhs.filespace;
 }
 
-//predicate function to sort data by file_size
+//predicate function to sort data by filename
 bool byName(Fileusage const& lhs, Fileusage const& rhs) {
 	return lhs.filename < rhs.filename;
 }
